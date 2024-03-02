@@ -16,7 +16,17 @@ COMPLETION_WAITING_DOTS="true"
 
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
-plugins=(git)
+# zsh-syntax-highlighting theme
+source ~/.catpuccin-theme-zsh-syntax-highlighting/themes/catppuccin_frappe-zsh-syntax-highlighting.zsh
+plugins=(
+  git 
+  copyfile 
+  copypath 
+  colored-man-pages 
+  colorize extract 
+  zsh-syntax-highlighting 
+  zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -32,3 +42,10 @@ source $ZSH/oh-my-zsh.sh
 
 # ALIASES
 source ~/.aliases.zsh
+
+# FUNCTIONS
+source ~/.functions.zsh
+
+
+# end of file things  
+eval "$(zoxide init zsh --cmd cd)"
