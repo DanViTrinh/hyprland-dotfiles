@@ -6,3 +6,11 @@ alias gc="git commit -m "
 alias ga="git add "
 alias lg="lazygit"
 
+# aliases because arch uses wrong program
+alias ftp='tnftp'
+
+# General
+alias open='xdg-open'
+alias leetcode='nvim leetcode.nvim'
+
+
