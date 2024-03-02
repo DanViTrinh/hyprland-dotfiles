@@ -17,6 +17,7 @@ zoxide
 ttf-hack-nerd
 zsh-syntax-highlighting
 zsh-autosuggestions
+waybar
 
 # optional dependencies
 
