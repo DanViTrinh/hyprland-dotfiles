@@ -17,7 +17,7 @@ COMPLETION_WAITING_DOTS="true"
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # zsh-syntax-highlighting theme
-source ~/.catpuccin-theme-zsh-syntax-highlighting/themes/catppuccin_frappe-zsh-syntax-highlighting.zsh
+#source ~/.catpuccin-theme-zsh-syntax-highlighting/themes/catppuccin_frappe-zsh-syntax-highlighting.zsh
 plugins=(
   git 
   copyfile 
