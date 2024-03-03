@@ -18,6 +18,8 @@ ttf-hack-nerd
 zsh-syntax-highlighting
 zsh-autosuggestions
 waybar
+openconnect
+openconnect-sso
 
 # optional dependencies
 
