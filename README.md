@@ -21,6 +21,7 @@ waybar
 openconnect
 openconnect-sso
 nwg-displays <!-- super useful -->
+wlogout
 
 # optional dependencies
 
