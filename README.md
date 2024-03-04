@@ -20,6 +20,7 @@ zsh-autosuggestions
 waybar
 openconnect
 openconnect-sso
+nwg-displays <!-- super useful -->
 
 # optional dependencies
 
