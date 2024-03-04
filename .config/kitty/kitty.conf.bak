@@ -1,9 +1,0 @@
-font_family   Hack Nerd Font
-
-window_padding_width 10
-
-
-# BEGIN_KITTY_THEME
-# Tokyo Night
-include current-theme.conf
-# END_KITTY_THEME
