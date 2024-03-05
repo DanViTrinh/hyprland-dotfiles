@@ -22,6 +22,7 @@ openconnect
 openconnect-sso
 nwg-displays <!-- super useful -->
 wlogout
+miniconda3 <!-- install from website --> 
 
 # optional dependencies
 
