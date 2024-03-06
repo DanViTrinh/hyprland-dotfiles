@@ -23,8 +23,10 @@ openconnect-sso
 nwg-displays <!-- super useful -->
 wlogout
 miniconda3 <!-- install from website --> 
+yt-dlp
 
 # optional dependencies
+
 
 
 
