@@ -14,6 +14,9 @@ alias ftp='tnftp'
 alias open='xdg-open'
 alias leetcode='nvim leetcode.nvim'
 
+# update system
+alias update="paru && notify-send 'done updating'"
+
 
 # youtube to mp3
 alias yt-to-mp3="yt-dlp -x -f bestaudio"
