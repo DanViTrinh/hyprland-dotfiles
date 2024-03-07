@@ -4,6 +4,7 @@ alias gp="git pull"
 alias gP="git push"
 alias gc="git commit -m"
 alias ga="git add "
+alias gaa="git add --all"
 alias lg="lazygit"
 
 # aliases because arch uses wrong program
