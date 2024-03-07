@@ -24,6 +24,7 @@ nwg-displays <!-- super useful -->
 wlogout
 miniconda3 <!-- install from website --> 
 yt-dlp
+grimblast-git
 
 # optional dependencies
 
