@@ -7,3 +7,7 @@ function ya() {
 	fi
 	rm -f -- "$tmp"
 }
+
+function code() {
+  command code "$@" && exit;
+}
