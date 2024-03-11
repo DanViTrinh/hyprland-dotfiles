@@ -26,7 +26,14 @@ miniconda3 <!-- install from website -->
 yt-dlp
 grimblast-git
 
-# optional dependencies
+
+# Recommeded things
+## Add skip host update to discord
+Add this to ~/.config/discord/settings.json
+{
+...
+  "SKIP_HOST_UPDATE": true
+}
 
 
 
