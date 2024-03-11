@@ -2,7 +2,7 @@
 ZSH_THEME="robbyrussell"
 
 #auto-correction.
-ENABLE_CORRECTION="true"
+#ENABLE_CORRECTION="true"
 
 # red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
