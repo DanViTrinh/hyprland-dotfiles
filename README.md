@@ -26,6 +26,8 @@ miniconda3 <!-- install from website -->
 yt-dlp
 grimblast-git
 
+# manual install 
+p10k
 
 # Recommeded things
 ## Add skip host update to discord
