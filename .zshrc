@@ -1,3 +1,4 @@
+
 # themes in https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
@@ -43,10 +44,8 @@ source ~/.aliases.zsh
 # FUNCTIONS
 source ~/.functions.zsh
 
+
 # end of file things  
-eval "$(zoxide init zsh --cmd cd)"
-
-
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/home/dan/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -61,3 +60,8 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+
+eval "$(zoxide init zsh --cmd cd)"
+
+eval "$(starship init zsh)"
