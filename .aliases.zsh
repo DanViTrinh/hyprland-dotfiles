@@ -5,7 +5,7 @@ alias gP="git push"
 alias gc="git commit -m"
 alias ga="git add "
 alias gaa="git add --all"
-alias lg="lazygit"
+alias gg="lazygit"
 
 # aliases because arch uses wrong program
 alias ftp='tnftp'
