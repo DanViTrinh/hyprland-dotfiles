@@ -20,3 +20,6 @@ alias update="paru && notify-send 'done updating'"
 
 # youtube to mp3
 alias yt-to-mp3="yt-dlp -x -f bestaudio"
+
+# fixes ssh issues with kitty
+alias ssh='kitty +kitten ssh'
