@@ -22,4 +22,7 @@ alias update="paru && notify-send 'done updating'"
 alias yt-to-mp3="yt-dlp -x -f bestaudio"
 
 # fixes ssh issues with kitty
-alias ssh='kitty +kitten ssh'
+#
+if [[ $TERM == "xterm-kitty" ]]; then
+  alias ssh='kitty +kitten ssh'
+fi
