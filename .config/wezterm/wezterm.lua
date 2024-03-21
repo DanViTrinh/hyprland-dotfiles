@@ -18,4 +18,6 @@ config.window_padding = {
 
 config.default_cursor_style = "SteadyBar"
 
+config.enable_wayland = false
+
 return config
