@@ -16,4 +16,6 @@ config.window_padding = {
 	bottom = padding_width,
 }
 
+config.default_cursor_style = "SteadyBar"
+
 return config
