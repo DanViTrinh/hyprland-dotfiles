@@ -145,7 +145,7 @@
     "format": "{volume}% {icon}   {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": "󰝟 {icon} {format_source}",
-    "format-muted": "󰝟 {format_source}",
+    "format-muted": "{volume}% 󰝟   {format_source}",
     "format-source": "{volume}% ",
     "format-source-muted": "",
     "format-icons": {
@@ -161,7 +161,9 @@
         ""
       ]
     },
-    "on-click": "pavucontrol"
+    "on-click-right": "pavucontrol",
+    "on-click-middle": "pamixer --default-source -t",
+    "on-click": "pamixer -t"
   },
   "custom/media": {
     "format": "{icon} {}",
@@ -172,6 +174,8 @@
       "default": "🎜"
     },
     "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-click-middle": "playerctl previous",
     "on-scroll-up": "playerctl next",
     "on-scroll-down": "playerctl previous",
     "escape": true,
