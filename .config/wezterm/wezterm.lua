@@ -20,4 +20,12 @@ config.default_cursor_style = "SteadyBar"
 
 config.enable_wayland = false
 
+config.keys = {
+	{
+		key = "f",
+		mods = "CTRL|SHIFT",
+		action = wezterm.action.DisableDefaultAssignment,
+	},
+}
+
 return config
