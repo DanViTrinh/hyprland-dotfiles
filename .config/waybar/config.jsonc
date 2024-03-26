@@ -9,7 +9,8 @@
     "memory",
     "temperature",
     "battery", // laptop
-    "battery#bat2" // laptop
+    "battery#bat2", // laptop
+    "hyprland/submap"
   ],
   "modules-center": [
     "hyprland/workspaces",
@@ -33,8 +34,10 @@
       "2": "",
       "urgent": "",
       "focused": "",
-      "default": ""
-    }
+      "default": "",
+      "magic": ""
+    },
+    "show-special": true
   },
   "keyboard-state": {
     "numlock": true,
