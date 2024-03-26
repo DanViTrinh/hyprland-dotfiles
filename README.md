@@ -25,14 +25,17 @@ wlogout
 miniconda3 <!-- install from website --> 
 yt-dlp
 grimblast-git
+keymapper
 
 # manual install
 p10k
 
 # manual configuration 
-## kmonad 
-https://github.com/kmonad/kmonad/issues/160 
-https://github.com/david-janssen/kmonad/blob/master/doc/faq.md#linux 
+## keymapper 
+```bash
+systemctl enable keymapperd.service
+
+```
 # Recommeded things
 ## Add skip host update to discord
 Add this to ~/.config/discord/settings.json
