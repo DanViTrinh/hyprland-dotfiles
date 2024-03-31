@@ -1,8 +1,7 @@
 #!/bin/sh
-swayidle -w timeout 300 'swaylock -f' \
-	timeout 600 'hyprctl dispatch dpms off' \
+swayidle -w timeout 300 'swaylock' \
+	timeout 360 'hyprctl dispatch dpms off' \
 	resume 'hyprctl dispatch dpms on' \
-	timeout 1800 'systemctl suspend' \
-	before-sleep 'swaylock -f' &
+	timeout 600 'systemctl suspend' &
 
 sway-audio-idle-inhibit &
