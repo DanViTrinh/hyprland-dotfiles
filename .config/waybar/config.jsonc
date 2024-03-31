@@ -18,6 +18,7 @@
   ],
   "modules-right": [
     "backlight", // laptop
+    "idle_inhibitor",
     "custom/media",
     "pulseaudio",
     "clock",
