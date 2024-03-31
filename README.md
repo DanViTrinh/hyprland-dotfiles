@@ -1,7 +1,6 @@
 <!-- TODO: remove some dependencis and make install script instead -->
 # Required dependencies
 lazygit
-ohmyzsh
 tmux
 neovim
 git
@@ -32,6 +31,7 @@ sddm-theme-tokyo-night
 sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
 
 # manual install
+ohmyzsh
 p10k
 miniconda3 <!-- install from website -->
 
