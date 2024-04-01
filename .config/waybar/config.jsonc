@@ -64,6 +64,7 @@
   },
   "idle_inhibitor": {
     "format": "{icon}",
+    "timeout": 240,
     "format-icons": {
       "activated": "",
       "deactivated": ""
