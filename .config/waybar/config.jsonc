@@ -79,17 +79,19 @@
   },
   "cpu": {
     "format": "{usage}% ",
-    "tooltip": false
+    "tooltip": true
   },
   "memory": {
     "format": "{}% "
   },
   "temperature": {
+    // TODO: add temperature input dynamically, like find cpu path with a script
+    // https://github.com/Alexays/Waybar/issues/2606
     "hwmon-path": [
-      "/sys/class/hwmon/hwmon0/temp1_input",
-      "/sys/class/hwmon/hwmon1/temp1_input",
-      "/sys/class/hwmon/hwmon2/temp1_input",
-      "/sys/class/hwmon/hwmon3/temp1_input"
+      //"/sys/class/hwmon/hwmon0/temp1_input",
+      //"/sys/class/hwmon/hwmon1/temp1_input",
+      "/sys/class/hwmon/hwmon2/temp1_input"
+      //"/sys/class/hwmon/hwmon3/temp1_input"
     ],
     "critical-threshold": 80,
     "format": "{temperatureC}°C  {icon}",
