@@ -51,10 +51,9 @@ paru --needed -S \
 	grimblast-git \
 	keymapper \
 	sddm-git \
-	sddm-theme-tokyo-night \
 	firefox \
-	qimgv \ # out of date
-discord \
+	qimgv \ # out of date \
+	discord \
 	spotify \
 	yazi \
 	ffmpegthumbnailer \
@@ -64,7 +63,26 @@ discord \
 	fd \
 	ripgrep \
 	fzf \
-	zoxide
+	nwg-displays \
+	sway-audio-idle-inhibit-git \
+	sway-audio-idle \
+	inotify-tools \
+	pamixer \
+	pavucontrol \
+	btop \
+	swww \
+	polkit-kde-agent \
+	qt5-wayland \
+	qt6-wayland \
+	dunst \
+	keymapper \
+	cliphist \
+	nodejs \
+	zip \
+	unzip \
+	zoxide \
+	swaylock-effects \
+	sddm-theme-tokyo-night-git
 
 # manual installations
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

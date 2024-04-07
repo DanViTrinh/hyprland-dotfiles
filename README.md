@@ -25,7 +25,7 @@ yt-dlp
 grimblast-git
 keymapper
 sddm-git
-sddm-theme-tokyo-night
+sddm-theme-tokyo-night-git
 
 ## yazi dependencies
 sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
@@ -44,7 +44,19 @@ sudo systemctl enable sddm
 ```
 
 
-edit theme in /etc/sddm.conf.d
+edit theme in /etc/sddm.conf.d/kde_settings.conf
+
+The default configuration file for SDDM can be found at /usr/lib/sddm/sddm.conf.d/default.conf. For any changes, create configuration file(s) in /etc/sddm.conf.d/. See sddm.conf(5) for all options.
+
+
+set the theme like so:
+
+```conf
+[Theme]
+# Current theme name
+Current=tokyo-night-sddm
+```
+
 
 
 ## keymapper 
