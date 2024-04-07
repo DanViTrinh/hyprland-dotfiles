@@ -11,9 +11,9 @@
     "keybind" : "h"
 }
 {
-    "label" : "logout",
+    "label" : "exitHyprland",
     "action" : "hyprctl dispatch exit",
-    "text" : "Logout",
+    "text" : "Exit hyprland",
     "keybind" : "e"
 }
 {
