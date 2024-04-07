@@ -82,6 +82,8 @@ paru --needed -S \
 	unzip \
 	zoxide \
 	swaylock-effects \
+	wev \
+	brightnessctl \
 	sddm-theme-tokyo-night-git
 
 # manual installations
