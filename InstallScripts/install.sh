@@ -85,6 +85,7 @@ paru --needed -S \
 	wev \
 	brightnessctl \
 	xdg-terminal-exec-git \
+	udiskie \
 	sddm-theme-tokyo-night-git
 
 # manual installations
