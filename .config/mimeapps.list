@@ -1,0 +1,16 @@
+[Added Associations]
+image/webp=swappy.desktop;qimgv.desktop;
+image/png=qimgv.desktop;
+
+[Default Applications]
+image/webp=qimgv.desktop
+text/html=google-chrome.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+x-scheme-handler/msteams=teams.desktop
+scheme-handler/http=firefox.desktop
+scheme-handler/https=firefox.desktop
+inode/directory=yazi.desktop
+text/plain=nvim.desktop
