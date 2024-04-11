@@ -14,3 +14,5 @@ scheme-handler/http=firefox.desktop
 scheme-handler/https=firefox.desktop
 inode/directory=yazi.desktop
 text/plain=nvim.desktop
+file=nvim.desktop
+text/x-shellscript=nvim.desktop
