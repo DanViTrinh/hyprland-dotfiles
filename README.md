@@ -71,9 +71,5 @@ Add this to ~/.config/discord/settings.json
   "SKIP_HOST_UPDATE": true
 }
 
-
-
-
-
-
-
+## XDG-OPEN with terminal
+https://unix.stackexchange.com/questions/707469/error-with-gtk-launch-unable-to-find-terminal-required-for-application 
