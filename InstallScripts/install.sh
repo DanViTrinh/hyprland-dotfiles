@@ -84,6 +84,7 @@ paru --needed -S \
 	swaylock-effects \
 	wev \
 	brightnessctl \
+	udiskie \
 	sddm-theme-tokyo-night-git
 
 # manual installations
