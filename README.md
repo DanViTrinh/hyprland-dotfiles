@@ -26,6 +26,7 @@ grimblast-git
 keymapper
 sddm-git
 sddm-theme-tokyo-night-git
+xdg-terminal-exec-git
 
 ## yazi dependencies
 sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
@@ -72,4 +73,6 @@ Add this to ~/.config/discord/settings.json
 }
 
 ## XDG-OPEN with terminal
+First solution from: 
+
 https://unix.stackexchange.com/questions/707469/error-with-gtk-launch-unable-to-find-terminal-required-for-application 
