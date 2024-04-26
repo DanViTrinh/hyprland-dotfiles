@@ -54,7 +54,7 @@ paru --needed -S \
 	firefox \
 	qimgv \ # out of date \
 	discord \
-	spotify \
+	spotify-launcher \
 	yazi \
 	ffmpegthumbnailer \
 	unarchiver \
@@ -86,7 +86,8 @@ paru --needed -S \
 	brightnessctl \
 	xdg-terminal-exec-git \
 	udiskie \
-	sddm-theme-tokyo-night-git
+	sddm-theme-tokyo-night-git \ 
+speech-dispatcher
 
 # manual installations
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
