@@ -4,6 +4,7 @@
   //"height": 30, // Waybar height (to be removed for auto height)
   "spacing": 4, // Gaps between modules (4px)
   "modules-left": [
+    "custom/power-button",
     "network",
     "cpu",
     "memory",
@@ -189,5 +190,9 @@
     "on-scroll-down": "playerctl previous",
     "escape": true,
     "exec": "$HOME/.config/waybar/scripts/mediaplayer.py 2> /dev/null" // Script in resources folder
+  },
+  "custom/power-button": {
+    "format": "  ",
+    "on-click": "wlogout"
   }
 }
