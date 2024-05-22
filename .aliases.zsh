@@ -26,3 +26,8 @@ alias yt-to-mp3="yt-dlp -x -f bestaudio"
 if [[ $TERM == "xterm-kitty" ]]; then
   alias ssh='kitty +kitten ssh'
 fi
+
+# single char aliases
+alias v='nvim'
+alias e='exit'
+alias o='xdg-open'
