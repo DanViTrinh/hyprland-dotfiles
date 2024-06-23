@@ -87,11 +87,30 @@ paru --needed -S \
 	xdg-terminal-exec-git \
 	udiskie \
 	sddm-theme-tokyo-night-git \ 
-speech-dispatcher
+speech-dispatcher \
+	wofi \
+	nwg-displays
 
 # manual installations
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
 # post install stuff
+# setting up configs from other repos
+git clone git@github.com:DanViTrinh/neovim-config.git ~/.config/nvim
+
+#tmux
+git clone git@github.com:DanViTrinh/tmux-config.git ~/.config/tmux
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# code stuff
+
+paru --needed -S \
+	python \ 
+go \
+	npm
