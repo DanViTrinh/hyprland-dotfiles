@@ -88,6 +88,7 @@ paru --needed -S \
 	udiskie \
 	sddm-theme-tokyo-night-git \ 
 speech-dispatcher \
+	yad \
 	wofi \
 	nwg-displays
 
