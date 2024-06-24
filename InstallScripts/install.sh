@@ -29,6 +29,10 @@ trash paru
 # installing  packages
 paru --needed -S \
 	linux-headers \
+	xdg-desktop-portal-hyprland-git \
+	mpv \
+	grim \
+	slurp \
 	wget \
 	curl \
 	zsh \
@@ -87,11 +91,20 @@ paru --needed -S \
 	brightnessctl \
 	xdg-terminal-exec-git \
 	udiskie \
-	sddm-theme-tokyo-night-git \ 
-speech-dispatcher \
+	sddm-theme-tokyo-night-git \
+	speech-dispatcher \
 	yad \
 	wofi \
 	nwg-displays
+
+# screen share
+paru -S --needed \
+	kwidgetsaddons5 \
+	kwindowsystem5 \
+	knotifications5 \
+	ki18n5
+paru -S --needed xwaylandvideobridge-git
+#end screen share
 
 # manual installations
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
