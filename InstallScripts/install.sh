@@ -28,6 +28,7 @@ trash paru
 
 # installing  packages
 paru --needed -S \
+	linux-headers \
 	wget \
 	curl \
 	zsh \
