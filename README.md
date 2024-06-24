@@ -1,12 +1,13 @@
 <!-- TODO: remove some dependencis and make install script instead -->
 # Required dependencies
+
 lazygit
 tmux
 neovim
 git
 sudo
 tmux
-vim 
+vim
 vi
 kitty
 zsh
@@ -29,9 +30,11 @@ sddm-theme-tokyo-night-git
 xdg-terminal-exec-git
 
 ## yazi dependencies
+
 sudo pacman -S yazi ffmpegthumbnailer unarchiver jq poppler fd ripgrep fzf zoxide
 
 # manual install
+
 ohmyzsh
 p10k
 miniconda3 <!-- install from website -->
@@ -44,11 +47,9 @@ miniconda3 <!-- install from website -->
 sudo systemctl enable sddm
 ```
 
-
 edit theme in /etc/sddm.conf.d/kde_settings.conf
 
 The default configuration file for SDDM can be found at /usr/lib/sddm/sddm.conf.d/default.conf. For any changes, create configuration file(s) in /etc/sddm.conf.d/. See sddm.conf(5) for all options.
-
 
 set the theme like so:
 
@@ -58,14 +59,16 @@ set the theme like so:
 Current=tokyo-night-sddm
 ```
 
+## keymapper
 
-
-## keymapper 
 ```bash
 systemctl enable keymapperd.service
 ```
+
 # Recommeded things
+
 ## Add skip host update to discord
+
 Add this to ~/.config/discord/settings.json
 {
 ...
@@ -73,6 +76,7 @@ Add this to ~/.config/discord/settings.json
 }
 
 ## XDG-OPEN with terminal
-First solution from: 
 
-https://unix.stackexchange.com/questions/707469/error-with-gtk-launch-unable-to-find-terminal-required-for-application 
+First solution from:
+
+<https://unix.stackexchange.com/questions/707469/error-with-gtk-launch-unable-to-find-terminal-required-for-application>
