@@ -24,7 +24,6 @@ nwg-displays <!-- super useful -->
 wlogout
 yt-dlp
 grimblast-git
-keymapper
 sddm-git
 sddm-theme-tokyo-night-git
 xdg-terminal-exec-git
@@ -61,9 +60,11 @@ Current=tokyo-night-sddm
 
 ## keymapper
 
-```bash
-systemctl enable keymapperd.service
-```
+Fix sudo issue from xremap
+[xremap](https://github.com/xremap/xremap)
+[xremap sudo issue](https://github.com/xremap/xremap/issues/388)
+
+A bit tricky on hyprland, but I trust you'll figure it out.
 
 # Recommeded things
 

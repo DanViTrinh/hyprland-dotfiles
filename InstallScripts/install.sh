@@ -80,7 +80,7 @@ paru --needed -S \
 	qt5-wayland \
 	qt6-wayland \
 	dunst \
-	keymapper \
+	xremap-hypr-bin \
 	cliphist \
 	nodejs \
 	zip \

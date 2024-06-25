@@ -1,0 +1,10 @@
+keymap:
+  - name: ctrl alt 
+    remap:
+      C-ALT-6: KEY_RIGHTALT-6
+      C-ALT-7: KEY_RIGHTALT-7
+      C-ALT-8: KEY_RIGHTALT-8
+      C-ALT-9: KEY_RIGHTALT-9
+      C-ALT-0: KEY_RIGHTALT-0
+      C-ALT-KEY_RIGHTBRACE: KEY_RIGHTALT-KEY_RIGHTBRACE
+
