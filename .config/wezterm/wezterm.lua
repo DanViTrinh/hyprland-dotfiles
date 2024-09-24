@@ -2,7 +2,7 @@ local wezterm = require("wezterm")
 
 local config = wezterm.config_builder()
 
-config.color_scheme = "catppuccin-frappe"
+config.color_scheme = "catppuccin-latte"
 
 config.font = wezterm.font("Hack Nerd Font")
 
