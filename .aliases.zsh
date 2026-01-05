@@ -31,3 +31,6 @@ fi
 alias v='nvim'
 alias e='exit'
 alias o='xdg-open'
+
+# to project 
+alias cdp="cd ~/free-time-projects/roomate_app"

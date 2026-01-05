@@ -17,3 +17,4 @@ text/plain=nvim.desktop
 file=nvim.desktop
 text/x-shellscript=nvim.desktop
 application/zip=lunacy.desktop
+application/pdf=firefox.desktop
